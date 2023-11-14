@@ -1,0 +1,1224 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins" !important;
+}
+
+
+
+
+/* ::::::::::::::::::::::::::::::::::: Popup CSS Open ::::::::::::::::::::::::::::::::::: */
+
+.popup-img {
+    max-width: 100%;
+    /* margin-top: 15%; */
+}
+.popup-content p {
+    font-size: 20px;
+    line-height: 32px;
+}
+.upsign {
+    font-size: 30px;
+    color: #1f2021;
+}
+.upsign strong {
+    color: #bd1e2d;
+}
+.inp1 {
+    margin-bottom: 15px;
+    border-radius: 25px;
+    padding: 13px 16px;
+    font-size: 14px;
+    width: 100%;
+    background-color: transparent!important;
+    color: #000;
+    border: 1px solid #bd1e2d;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;;
+}
+.inp1::placeholder {
+    color: #000 !important;
+}
+#inp2 {
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 13px 16px;
+    font-size: 14px;
+    width: 100%;
+    color: #495057;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;;
+}
+.btn3 {
+    background: #bd1e2d;
+    color: #fff;
+    /* width: 100%; */
+    border-radius: 25px;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s;
+    box-shadow: 0 5px 15px #0000002e;
+    border: 1px solid transparent;
+}
+.btn3:hover {
+    background-color: #000;
+}
+.cont {
+    max-width: 900px !important;
+}
+.fancybox-content {
+    padding: 20px !important;
+}
+
+/* ::::::::::::::::::::::::::::::::::: Popup CSS Close :::::::::::::::::::::::::::::::::: */
+
+/* +++++++++++++++++++++++++++++++++++++++ Navbar CSS Open +++++++++++++++++++++++++++++++++++++++ */
+
+.Logo {
+    width: 150px;
+    height: auto;
+}
+a.nav-link {
+    font-size: 14px;
+    color: #fff !important;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+.btn1 {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: .05em;
+    border: 1px solid #fff;
+    width: auto;
+    padding: 10px 30px;
+    font-weight: 600;
+    transition: .5s;
+    border-radius: 30px;
+}
+.btn1:hover {
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-evenly;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ Navbar CSS Close +++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 1 CSS Open +++++++++++++++++++++++++++++++++++++++ */
+
+.sect1 {
+    background: linear-gradient(0deg, rgb(189 30 45), rgba(189, 30, 45, 0.7) 20%), url(img/main-bg.jpg) !important;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    margin: -121px 0 0 0;
+}
+.banner-info h1 {
+    color: #fff;
+    font-size: 40px;
+    /* width: 70%; */
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.logo-form {
+    padding: 30px;
+    width: 45%;
+    border-radius: 20px;
+    margin: 0 auto;
+    transition: .5s;
+    background: #ffffffd9;
+}
+.logo-form h4 {
+    font-size: 17px;
+    color: #bd1e2d;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.main-banner-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nameinp {
+    border-radius: 30px;
+    background: transparent!important;
+    border: 1px solid #bd1e2d!important;
+    box-shadow: none!important;
+    outline: none!important;
+    color: #bd1e2d;
+    padding: .375rem .75rem;
+    width: 100%;
+}
+.nameinp::placeholder {
+    color: #bd1e2d !important;
+}
+.btn2 {
+    background-color: #bd1e2d;
+    color: #fff;
+    padding: 10px 0;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 60% !important;
+    /* border-radius: 100%; */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carouselsect {
+    margin-top: 80px;
+}
+.content {
+    margin-top: 20px;
+}
+.content h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 75px;
+}
+.content h3:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 2px;
+    background: #fff;
+    height: 45px;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%);
+}
+.content h3:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    background: #fff;
+    height: 10px;
+    left: 50%;
+    top: 80px;
+    border-radius: 50%;
+    transform: translate(-50%);
+}
+.content h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.content p {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    line-height: 32px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 1 CSS Close ++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 2 CSS Open ++++++++++++++++++++++++++++++++++++++ */
+
+.sect2 img {
+    max-width: 100%;
+}
+#mxpl {
+    padding: 0;
+    margin: 0 !important;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 2 CSS Close ++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 3 CSS Open ++++++++++++++++++++++++++++++++++++++ */
+
+.sect3 {
+    background-color: #bd1e2d;
+    padding: 60px 0;
+    position: relative;
+    margin: -25px 0 0 0;
+}
+.fa-star-o {
+    color: #fff;
+    font-size: 25px !important;
+}
+.content-2 p {
+    color: #fff;
+    padding: 16px 0 30px 0;
+    font-size: 16px;
+}
+.be-visible {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 75px;
+    padding-top: 50px;
+}
+.be-visible:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 2px;
+    background: #fff;
+    height: 45px;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%);
+}
+.be-visible:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    background: #fff;
+    height: 10px;
+    left: 50%;
+    top: 140px;
+    border-radius: 50%;
+    transform: translate(-50%);
+}
+.content-2 h2 {
+    color: #fff;
+    font-size: 40px;
+    margin: 30px 0;
+    font-weight: 700;
+}
+.para {
+    font-size: 22px !important;
+    color: #fff;
+    line-height: 32px;
+    margin: 30px 0 !important;
+    padding: 0 !important;
+}
+.hand-parent p {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #fff;
+}
+.hand-logos {
+    margin-top: 30px;
+}
+.hand-parent1 img{
+    width: 54px;
+    height: 54px;
+}
+.hand-parent1 h4 {
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
+.hand-parent1 p {
+    font-size: 15px;
+    color: #fff;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 3 CSS Close +++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 4 CSS Open +++++++++++++++++++++++++++++++++++++ */
+
+.sect4 {
+    background-color: #bd1e2d;
+    padding: 0 0 40px 0;
+}
+.sect4 h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.sect4 h4 {
+    font-size: 24px;
+    color: #fff;
+    padding: 5px 0;
+}
+.sect4 p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 35px;
+}
+.list-type-content {
+    padding: 0;
+    list-style: none;
+}
+.list-type-content i {
+    margin-right: 15px;
+}
+.list-type-content li {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+.btn-flex {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sect4 img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 4 CSS Close ++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 5 CSS Open ++++++++++++++++++++++++++++++++++++ */
+
+.sect5 {
+    background-color: #bd1e2d;
+    padding: 0 0 30px 0;
+}
+.hding {
+    font-size: 22px;
+    color: #fff;
+    margin: 20px 0;
+}
+.para1 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+.light-Content {
+    margin-top: 40px;
+}
+.Package-Box {
+    padding: 30px 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.Discount-Box {
+    background-image: url(img/bookmark.webp);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 25px;
+    top: 0px;
+    background-position: bottom;
+    padding: 28px 14px;
+    background-size: 100%;
+}
+.Discount-Box h5 {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    max-width: fit-content;
+    font-weight: 700;
+}
+.Discount-Box h6 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+.Package-Box h4 {
+    font-size: 22px;
+    color: #fff;
+}
+.Package-Box h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+    margin: 15px 0;
+}
+.Package-Box h3 {
+    text-decoration: line-through;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+.astro-HKOC4SEA {
+    padding: 0 0 0 18px;
+    overflow: auto;
+}
+.astro-HKOC4SEA li {
+    font-size: 15px;
+    margin: 15px 0;
+    color: #fff;
+}
+.Testimonials {
+    font-size: 150px;
+    -webkit-text-stroke: 2px #fff;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
+.left-info h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.left-info p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.left-info h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.left-info {
+    margin: 100px 38px 0 70px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ Sect 5 CSS Close +++++++++++++++++++++++++++++++++++ */
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++ Footer CSS Open +++++++++++++++++++++++++++++++++++ */
+
+.foot {
+    padding: 80px 0 20px 0;
+    background-color: #000;
+}
+.para2 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 30px 0 0 0;
+}
+.foot-content h3 {
+    color: #fff;
+    font-size: 22px;
+}
+.foot-content h3:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 10px;
+    border-bottom: 3px solid #fff;
+    margin-top: 10px;
+}
+.foot-ulli {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+}
+.foot-ulli li {
+    margin: 15px 0;
+}
+.foot-ulli a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+.foot-ulli a:hover {
+    color: #bd1e2d;
+    text-decoration: none;
+}
+.foot-content {
+    margin: 80px 0 0 0;
+}
+.foot-img img {
+    width: 12%;
+}
+.foot-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ Footer CSS Close +++++++++++++++++++++++++++++++++++ */
+
+
+
+/* ||||||||||||||||||||||||||||||||| Logo Design Sect 1 css open ||||||||||||||||||||||||||||||||| */
+
+.LOGO-sect1 {
+    background: linear-gradient(0deg, rgb(189 30 45), rgba(189, 30, 45, 0.7) 20%), url(img/web-banner.webp) !important;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 190px;
+    padding-bottom: 50px;
+    margin: -121px 0 0 0;
+}
+.astro-DXORXZFA {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.astro-DXORXZFA li {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 10px 0;
+}
+.astro-DXORXZFA i {
+    margin-right: 15px;
+}
+.info-astro h1 {
+    font-size: 40px;
+    line-height: 1.3;
+    color: #fff;
+    font-weight: 600;
+}
+.info-astro p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+}
+.project-form {
+    padding: 40px;
+    box-shadow: 3px 3px 10px #00000045;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.project-form h3 {
+    font-size: 22px;
+    line-height: 1.3;
+    text-align: center;
+    color: #bd1e2d;
+    font-weight: 600;
+}
+.astro-DXOzzZFA {
+    border-radius: 6px;
+    background-color: #fcfcfc;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    font-size: 1rem;
+    color: var(--bs-body-color);
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.astro-DXOzzZFA::placeholder {
+    color: #000 !important;
+}
+.Free-Demo {
+    text-align: center;
+}
+.Free-Demo button {
+    cursor: pointer;
+    background-color: #bd1e2d;
+    font-size: 14px;
+    letter-spacing: .08em;
+    margin-top: 10px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    transition: all .5s;
+}
+.Free-Demo button:hover {
+    background-color: #000;
+}
+
+/* ||||||||||||||||||||||||||||||||| Logo Design Sect 1 css Close |||||||||||||||||||||||||||||||| */
+
+
+
+/* ||||||||||||||||||||||||||||||||| Logo Design Sect 2 css Open |||||||||||||||||||||||||||||||| */
+
+.LOGO-sect2 {
+    background-color: #bd1e2d;
+    padding: 50px 0;
+}
+.ideal-tyle {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.astro-XPJBPFDZ {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 50px;
+}
+.astro-XPJBPFDZ li {
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+}
+.astro-XPJBPFDZ i {
+    margin-right: 10px;
+}
+.design1234 {
+    margin-top: 40px;
+}
+.idea-123 img {
+    max-width: 100%;
+    margin-top: 40px;
+}
+.logopara {
+    font-size: 18px !important;
+    text-align: center;
+    line-height: 1.5 !important;
+    max-width: 100% !important;
+    margin-bottom: 30px !important;
+}
+.btn-flex1 {
+    margin: 50px 0;
+}
+
+/* ||||||||||||||||||||||||||||||||| Logo Design Sect 2 css Close ||||||||||||||||||||||||||||||| */
+
+
+
+/* ||||||||||||||||||||||||||||||||| Web Sect Sect 2 css open ||||||||||||||||||||||||||||||| */
+
+.WEB-sect2 {
+    background-color: #bd1e2d;
+    padding: 60px 0;
+}
+.ecommerce {
+    width: 100%;
+    margin-top: 20%;
+    transition: all 0.5s;
+}
+.ecommerce:hover {
+    transform: scale(1.1);
+}
+.web-content {
+    margin-top: 50px;
+}
+.Design-Process-sect {
+    margin-top: 40px;
+}
+.Brand-imgg {
+    width: 100%;
+    margin-top: 20%;
+}
+
+/* ||||||||||||||||||||||||||||||||| Web Sect Sect 2 css Close |||||||||||||||||||||||||||||| */
+
+
+/* ++++++++++++++++++++++++++++++++ Package Sect css open ++++++++++++++++++++++++++++++++ */
+
+.Package-sect {
+    background: linear-gradient(0deg, rgb(189 30 45), rgba(189, 30, 45, 0.7) 20%), url(img/packages-banner.webp) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    margin: -121px 0 0 0;
+}
+.packagespara {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 32px;
+}
+.packagessect2 {
+    background-color: #bd1e2d;
+    padding: 60px 0;
+}
+.packages-content {
+    margin-top: 50px;
+}
+
+/* ++++++++++++++++++++++++++++++++ Package Sect css close +++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++ Services Sect css Open +++++++++++++++++++++++++++++++ */
+
+.servicessect2 {
+    background-color: #bd1e2d;
+    padding: 60px 0;
+}
+.custompara {
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+}
+.Custom-Conteent {
+    margin-top: 50px;
+}
+.customimg {
+    width: 100%;
+    transition: 0.5s;
+}
+.customimg:hover {
+    transform: scale(1.1);
+}
+.customimg1 {
+    width: 60%;
+}
+/* ++++++++++++++++++++++++++++++++ Services Sect css close ++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++ ABOUT Sect css Open ++++++++++++++++++++++++++++++ */
+
+.ABOUT-sect {
+    background: linear-gradient(0deg, rgb(189 30 45), rgba(189, 30, 45, 0.7) 20%), url(img/about-banner.webp) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    margin: -121px 0 0 0;
+}
+.counterdiv h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+}
+.counterdiv h4 {
+    color: #fff;
+    font-size: 20px;
+}
+.counterdiv {
+    margin-top: 50px;
+}
+.aboutsect2 {
+    background-color: #bd1e2d;
+    padding: 0 0 60PX 0;
+}
+.abouthding {
+    font-size: 30px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.aboutpara {
+    font-size: 18px;
+    color: #fff;
+    width: 90%;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 auto;
+}
+.aboutsect3 {
+    background-color: #bd1e2d;
+    padding: 0 0 60px 0;
+}
+.aboutpara1 {
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* ++++++++++++++++++++++++++++++++ ABOUT Sect css Close +++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++ Portfolio Sect 1 css Open +++++++++++++++++++++++++++++ */
+
+
+.Portfoliosect1 {
+    padding: 180px 0 100px 0;
+    background-color: #bd1e2d;
+    margin: -121px 0 0 0;
+}
+
+/* ++++++++++++++++++++++++++++++++ Portfolio Sect 1 css Close +++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++ Contact-Us Sect css Open +++++++++++++++++++++++++++++ */
+
+.Contact-SECT {
+    background: linear-gradient(0deg, rgb(189 30 45), rgba(189, 30, 45, 0.7) 20%), url(img/contact-banner.webp) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    margin: -121px 0 0 0;
+}
+.Contact-SECT2 {
+    padding: 60px 0;
+    background-color: #bd1e2d;
+}
+.astro-FORM {
+    background-color: transparent !important;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    outline: none !important;
+    box-shadow: none;
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.astro-FORM2 {
+    background-color: transparent !important;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    outline: none !important;
+    box-shadow: none;
+    padding: 12px 20px;
+    width: 50%;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.email-phone-flex {
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+    gap: 15px;
+}
+::placeholder {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+#desc {
+    background-color: transparent !important;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    outline: none !important;
+    box-shadow: none;
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.snd-msg {
+    padding: 12px 40px;
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all .3s;
+    line-height: normal;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+.snd-msg:hover {
+    background-color: #fff;
+    color: #000;
+}
+.contactHding {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.Details {
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+}
+.Details li {
+    margin: 10px 0;
+}
+.Details a {
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    white-space: pre-line;
+}
+.Details a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.Details i {
+    font-size: 20px !important;
+    margin-right: 15px;
+    font-weight: 500;
+    width: 25px;
+    text-align: center;
+}
+.gp {
+    padding-left: 60px !important;
+}
+
+/* ++++++++++++++++++++++++++++++++ Contact-Us Sect css Close +++++++++++++++++++++++++++++ */
+
+
+
+
+/* ++++++++++++++++++++++++++++++++ Blog Sect 1 css Open +++++++++++++++++++++++++++++ */
+
+.Blog-sect1 {
+    background: linear-gradient(
+        180deg,
+        rgb(188 53 66 / 85%) 7%,
+        rgb(195 61 75 / 86%) 21%,
+        rgb(192 39 54 / 93%) 44%,
+        rgba(189, 30, 45, 1) 100%
+      ),
+      url(/wp-content/uploads/2023/08/Mask-Group-75-1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+    padding: 155px 0px 40px 0px;
+    margin-top: -121px;
+
+}
+.All-category {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 50px;
+}
+.All-category li {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+.Blog-sect1 img {
+    max-width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.Blog-sect1 img:hover {
+    transform: scale(1.1);
+}
+.post-content p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+.post-content h1 {
+    font-size: 34px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 40px;
+}
+.post-content h6 {
+    font-size: 17px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.post-content span {
+    font-size: 16px;
+    margin-right: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* ++++++++++++++++++++++++++++++++ Blog Sect 1 css Close +++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++ Blog Sect 2 css Open +++++++++++++++++++++++++++++ */
+
+.Blog-sect2 {
+    background-color: #bd1e2d;
+    padding: 60px 0;
+}
+.SR-Post-Box {
+    padding: 20px 10px;
+    border-radius: 12px;
+}
+.SR-Post-Box:hover {
+    box-shadow: 1px 0px 5px 3px #efb2b2;
+    transition: 0.4s;
+}
+.SR-Post-Box p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.SR-Post-Box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    height: 200px;
+    object-fit: cover;
+}
+.SR-Post-Box h2 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.SR-Post-Box div {
+    color: #fff;
+    margin-bottom: 12px;
+}
+.SR-Post-Box span {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 14px;
+}
+/* ++++++++++++++++++++++++++++++++ Blog Sect 2 css Close +++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++ Blog Sect 3 css Open +++++++++++++++++++++++++++++ */
+
+.ooww {
+    align-items: center !important;
+}
+.Blog-sect3 {
+    padding: 60px 0;
+    background-color: #bd1e2d;
+}
+.Dallasimg {
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 12px;
+    /* height: 320px; */
+}
+.All-Post-Box {
+    padding: 20px;
+    box-shadow: 1px 0px 5px 3px #efb2b2;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+.Post-Box p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+.Post-Box h2 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.Post-Box div {
+    color: #fff;
+    margin-bottom: 12px;
+}
+.Post-Box span {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+/* ++++++++++++++++++++++++++++++++ Blog Sect 3 css Close ++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++ Blog Sect 4 css Open ++++++++++++++++++++++++++++ */
+
+.mxwidht {
+    max-width: 1240px !important;
+}
+.Blog-sect4 {
+    background-color: #bd1e2d;
+    padding-bottom: 60px;
+}
+.BlogHDING {
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.MoApp-Post-Box img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+    height: 300px;
+    margin-bottom: 24px;
+}
+.MoApp-Post-Box p {
+    font-size: 18px;
+    color: #fff;
+}
+.MoApp-Post-Box h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+}
+.MoApp-Post-Box div {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 2px 0 15px 0;
+}
+.MoApp-Post-Box span {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-right: 13px;
+}
+.appimgg img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+    height: 200px;
+}
+.MobileApps-Loop {
+    display: grid;
+    grid-template-columns: 0.45fr 0.55fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.Blogcontent p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.Blogcontent h2 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    margin: 0;
+    font-weight: 400;
+}
+.Blogcontent div {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin: 8px 0 10px 0;
+}
+.Blogcontent span {
+    font-size: 14px;
+    margin-right: 13px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.View-allBTn {
+    background: #fff;
+    width: 100%;
+    height: 1px;
+    margin: 50px 0 0 0;
+}
+
+/* ++++++++++++++++++++++++++++++++ Blog Sect 4 css Close +++++++++++++++++++++++++++ */

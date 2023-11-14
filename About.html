@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <style>
+        .hidden {
+            display: none;
+
+            div.red {
+                background: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <!-=====================================- POPUP Setion Open -=====================================-> -->
+
+    <!-- <div>
+        <a data-fancybox data-src="#open" href="javascript:;">Open modal box</a>
+      </div> -->
+
+    <div class="hidden">
+        <div class="red" id="open">
+
+            <!-- <h2>Hello</h2>
+        <h1>Talha Shaikh</h1>
+    <input type="text" value="" placeholder="Talha">
+          <p>You are awesome.</p> -->
+
+            <section class="sectpopup">
+                <div class="container cont">
+                    <div class="row">
+                        <div id="poppllm" class="col-md-5">
+                            <img class="popup-img" src="img/popup-img.webp" alt="">
+                        </div>
+
+                        <div id="poppllm" class="col-md-7">
+                            <div class="popup-content">
+                                <h2 class="upsign">
+                                    <strong>Sign Up Now</strong>
+                                    To Avail
+                                </h2>
+                                <h2 class="upsign">
+                                    <strong>50%</strong>
+                                    Discount
+                                </h2>
+                                <p>Fill out the form below with your details to start conversation with our expert</p>
+                                <input type="text" name="cn" placeholder="Name*" aria-required="true" class="inp1">
+                                <input type="text" name="cn" placeholder="Email*" aria-required="true" class="inp1">
+                                <input type="text" name="cn" placeholder="Phone No*" aria-required="true" class="inp1">
+                                <input type="text" name="cn" placeholder="Tell Us Your Budget (optional)"
+                                    aria-required="true" class="inp1">
+                                <input type="text" name="cn" placeholder="Your Message" aria-required="true"
+                                    class="inp1">
+                                <!-- <textarea name="msg" placeholder="To help us understand better, enter a brief description
+                            about your project." id="inp2" aria-required="true"></textarea> -->
+                                <input type="submit" class="btn3" name="send_data" value="Let's Make a Deal">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- <!-=====================================- POPUP Setion Close -=====================================-> -->
+
+
+
+    <!-- <!-++++++++++++++++++++++++++++++++++- Navbar Code Open -++++++++++++++++++++++++++++++++++-> -->
+
+    <section class="headersect">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"><img class="Logo" src="img/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="Logo-Design.html">Logo Design <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="Website-Design.html">Website Design <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="Branding.html">Branding <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="Packages.html">Packages <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="Services.html">Services <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="About.html">About <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="Contact-Us.html">Contact Us <span class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
+                            <a data-fancybox data-src="#open" href="javascript:;" class="btn1">Get In Touch</a>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <!-++++++++++++++++++++++++++++++++++- Navbar Code Close -++++++++++++++++++++++++++++++++++-> -->
+
+
+    <!-- <!-++++++++++++++++++++++++++++++++++- Sect 1 Code Open -++++++++++++++++++++++++++++++++++-> -->
+
+    <section class="ABOUT-sect">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="banner-info">
+                        <h1>We Are A Globally Acclaimed Company That Delivers Every Claim.</h1>
+                        <p class="packagespara">We have crystal clear, streamlined procedures for the entire spectrum of
+                            our services. Our team of highly coveted and capable professionals is sufficient to impress
+                            the industry giants.</p>
+                        <!-- <div class="logo-form">
+            <h4>;Use Our Online Logo Maker to Carve a logo design that your audience would love to relate with</h4>
+            <div class="main-banner-form">
+              <input type="text" placeholder="Your Name" class="nameinp">
+              <button class="btn2" type="submit">Next</button>
+            </div>
+          </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="counterdiv">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <h2>7679</h2>
+                        <h4>Projects Done</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>+24976</h2>
+                        <h4>Happy Clients</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>91%</h2>
+                        <h4>Success Rate</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <h2>1583</h2>
+                        <h4>Logos Done</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <!-++++++++++++++++++++++++++++++++++- Sect 1 Code Close -+++++++++++++++++++++++++++++++++-> -->
+
+
+    <!-- <!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- About sect 2 Open -!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-> -->
+
+    <section class="aboutsect2">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2 class="abouthding">Delivering Digital Success With Intelligent, <br>
+                        Consumer-Centric Ideologies.</h2>
+                    <p class="aboutpara">Our team is a leader in the industry where offering genuinely creative design
+                        is a rarity. We have it all at our one-stop-design-shop. The seamless transition of ideas into
+                        reality is a feather in our hat that we love to tout about.We cater to all of our clients with
+                        similar vigor and passion. We believe that our clientele is our greatest asset, with our team
+                        being a close second. We fuel each campaign with blood, sweat, effort, and love. Each project is
+                        a benchmark of our excellent craft.</p>
+                </div>
+            </div>
+            <div class="web-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="info-astro">
+                            <h1>Logo Design and Branding Services</h1>
+                            <p>Business cards, brochures, mobile apps, and websites are the first impression of a brand;
+                                we make sure to leave a good one. Influence your audience to know about you the same way
+                                you want to know about us. Logo Design Valley serves startups, small businesses, and
+                                enterprises in their quest for logo design, branding design, and promotion design. We
+                                offer a wide range of design services that induce your audience to reach out to you
+                                instead of you finding them. Logo Design Valley, the best logo design company,
+                                transforms your business vision into a brand reality.</p>
+                            <ul class="astro-DXORXZFA">
+                                <li><i class="fa fa-arrow-right"></i>Logo Design & Branding</li>
+                                <li><i class="fa fa-arrow-right"></i>Web Design & Development</li>
+                                <li><i class="fa fa-arrow-right"></i>Brochure Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Mobile App Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Social Media Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Stationery Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Corporate Branding Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Promotion Design</li>
+                            </ul>
+                            <div class="btn-flex">
+                                <a class="btn1" data-fancybox data-src="#open" href="javascript:;">Get Started Now</a>
+                                <a class="btn1" href="javascrpt:;">Live Chat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="ecommerce" src="img/ab1.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="web-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="ecommerce" src="img/ab2.webp" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-astro">
+                            <h1>Web Design and Development</h1>
+                            <p>A captivating design ensures that users and visitors stay on the web pages longer to
+                                transact with a brand. Elevate your business websites with a better UI/UX design to
+                                generate more leads and convert them. There’s no need to find web designers and website
+                                developers discretely when Logo Design Valley has them under one roof. Our proficient
+                                team designs web pages with performance and search engine optimization. We provide
+                                responsive website development services for a superior influence, professional layout,
+                                and convenient user journey.</p>
+                            <ul class="astro-DXORXZFA">
+                                <li><i class="fa fa-arrow-right"></i>Website Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Ecommerce Website</li>
+                                <li><i class="fa fa-arrow-right"></i>Website Development</li>
+                                <li><i class="fa fa-arrow-right"></i>B2B & B2C Portal</li>
+                                <li><i class="fa fa-arrow-right"></i>CMS Development</li>
+                                <li><i class="fa fa-arrow-right"></i>Blogging Websites</li>
+                            </ul>
+                            <div class="btn-flex">
+                                <a class="btn1" data-fancybox data-src="#open" href="javascript:;">Get Started Now</a>
+                                <a class="btn1" href="javascrpt:;">Live Chat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="web-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="info-astro">
+                            <h1>Mobile App Design</h1>
+                            <p>Mobile apps are a great source to connect with prospects, offering them what they expect
+                                in an exclusive desirable way. Hire our mobile app design services to enrich your mobile
+                                app through a persuasive UI design and a high-performance UX design. If you are looking
+                                for professional app designers, whether iOS app designers or Android app designers, we
+                                have them here. Our expert designers are all set to take on your challenges and
+                                transform them into growth opportunities. Amuse your audience with the best UI/UX
+                                experience through an enticing app design.</p>
+                            <ul class="astro-DXORXZFA">
+                                <li><i class="fa fa-arrow-right"></i>UI Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Back End Design</li>
+                                <li><i class="fa fa-arrow-right"></i>UX Design</li>
+                                <li><i class="fa fa-arrow-right"></i>App Architecture</li>
+                                <li><i class="fa fa-arrow-right"></i>Front End Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Navigation Design</li>
+                            </ul>
+                            <div class="btn-flex">
+                                <a class="btn1" data-fancybox data-src="#open" href="javascript:;">Get Started Now</a>
+                                <a class="btn1" href="javascrpt:;">Live Chat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="ecommerce" src="img/ab3.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="web-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="ecommerce" src="img/ab4.webp" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-astro">
+                            <h1>Brochure Design</h1>
+                            <p>Brochures and product catalogs tell your brand story by highlighting the business name,
+                                slogan, and contact information. They highlight the brand’s offerings and answer
+                                questions that your prospects may have in mind. The aim is to encourage your prospects
+                                to interact and engage with you. You might neglect such details but don’t lag behind the
+                                competition by leaving such inexpensive yet effective promotional material. Hire our
+                                graphic design experts to create a distinct and consistent layout for your brochure
+                                design and business catalogs.</p>
+                            <ul class="astro-DXORXZFA">
+                                <li><i class="fa fa-arrow-right"></i>Bi-Fold</li>
+                                <li><i class="fa fa-arrow-right"></i>Ecommerce Website</li>
+                                <li><i class="fa fa-arrow-right"></i>Website Development</li>
+                                <li><i class="fa fa-arrow-right"></i>B2B & B2C Portal</li>
+                                <li><i class="fa fa-arrow-right"></i>CMS Development</li>
+                                <li><i class="fa fa-arrow-right"></i>Blogging Websites</li>
+                            </ul>
+                            <div class="btn-flex">
+                                <a class="btn1" data-fancybox data-src="#open" href="javascript:;">Get Started Now</a>
+                                <a class="btn1" href="javascrpt:;">Live Chat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="web-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="info-astro">
+                            <h1>Stationery Design</h1>
+                            <p>Stationery like pens, notebooks, and file covers are used daily in business facilities
+                                and even passed on to clients. Seize this opportunity to enhance your prominence and
+                                professionalism. Let your stationery do the work for you even when you pass it on.
+                                Introduce the brand to potential clients, vendors, and employees in a way that endorses
+                                the company image and values. Logo Design Valley delivers all the stationery design
+                                services your business needs to prosper.</p>
+                            <ul class="astro-DXORXZFA">
+                                <li><i class="fa fa-arrow-right"></i>Business Card Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Employee ID Card Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Letterhead Design</li>
+                                <li><i class="fa fa-arrow-right"></i>File Cover Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Notepad Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Envelope Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Bookmark Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Presentation Folder Design</li>
+                            </ul>
+                            <div class="btn-flex">
+                                <a class="btn1" data-fancybox data-src="#open" href="javascript:;">Get Started Now</a>
+                                <a class="btn1" href="javascrpt:;">Live Chat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="ecommerce" src="img/ab5.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="web-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="ecommerce" src="img/ab6.webp" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-astro">
+                            <h1>Social Media Design</h1>
+                            <p>Social media platforms promise a wider reach by using the right design and strategy. It
+                                energizes your awareness and promotion campaigns by aligning the brand design with the
+                                audience’s expectations and getting closer to your prospects. Posting images, text,
+                                videos, or a mix on your social media pages is the new form of content marketing. Embed
+                                a design that encourages your target audience to engage on your platform pages and
+                                assist them in connecting with your brand. Get the attention of millions of people
+                                worldwide through social media design.</p>
+                            <ul class="astro-DXORXZFA">
+                                <li><i class="fa fa-arrow-right"></i>Fresh & Distinct Banners</li>
+                                <li><i class="fa fa-arrow-right"></i>TikTok Promo Videos</li>
+                                <li><i class="fa fa-arrow-right"></i>Instagram Reels & Stories</li>
+                                <li><i class="fa fa-arrow-right"></i>Snapchat Stories & Animations</li>
+                                <li><i class="fa fa-arrow-right"></i>Pinterest Pins & Carousels</li>
+                                <li><i class="fa fa-arrow-right"></i>YouTube Marketing Videos</li>
+                                <li><i class="fa fa-arrow-right"></i>Facebook Ads & Infographics</li>
+                                <li><i class="fa fa-arrow-right"></i>LinkedIn Posts and Visuals</li>
+                                <!-- <li><i class="fa fa-arrow-right"></i>Animations</li> -->
+                                <!-- <li><i class="fa fa-arrow-right"></i>Animations</li> -->
+                            </ul>
+                            <div class="btn-flex">
+                                <a class="btn1" data-fancybox data-src="#open" href="javascript:;">Get Started Now</a>
+                                <a class="btn1" href="javascrpt:;">Live Chat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="web-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="info-astro">
+                            <h1>Promotional Design</h1>
+                            <p>Promotional material, strategies, and programs bring new clients on board while retaining
+                                the existing ones through loyalty. Giveaways, incentives, loyalty programs, custom
+                                banners, and backdrops are all necessary to add charm to any campaign, whether online or
+                                offline. Logo Design Valley offers various promotional design services to boost your
+                                brand identity, awareness, and recognition for a higher return on marketing investment.
+                                Promote your business at the right time, to the right people, through the right medium,
+                                with the right message and, of course, design.</p>
+                            <ul class="astro-DXORXZFA">
+                                <li><i class="fa fa-arrow-right"></i>Corporate Gifts</li>
+                                <li><i class="fa fa-arrow-right"></i>Signage & Exhibition Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Business Advertising</li>
+                                <li><i class="fa fa-arrow-right"></i>Promotional Stickers</li>
+                                <li><i class="fa fa-arrow-right"></i>Packaging Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Merchandise Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Promotional Gift Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Uniform Design & Clothing</li>
+                                <li><i class="fa fa-arrow-right"></i>Ephemera Design</li>
+                                <li><i class="fa fa-arrow-right"></i>Branded Environments</li>
+                            </ul>
+                            <div class="btn-flex">
+                                <a class="btn1" data-fancybox data-src="#open" href="javascript:;">Get Started Now</a>
+                                <a class="btn1" href="javascrpt:;">Live Chat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="ecommerce" src="img/ab7.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- About sect 2 Close -!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-> -->
+
+
+    <!-- <!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- About sect 3 open -!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-> -->
+
+    <section class="aboutsect3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">
+                        <h3>WORKFLOW</h3>
+                        <h2>Our end-to-end creative design process enables your brand to win over customers,
+                            outperforming the competition while satiating your design thirst.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="hand-logos">
+                <div class="row text-center">
+                    <div class="col mx-1">
+                        <div class="hand-parent">
+                            <img width="71" height="71" src="img/workflow1.png" alt="">
+                            <p>Define</p>
+                        </div>
+                    </div>
+                    <div class="col mx-1">
+                        <div class="hand-parent">
+                            <img width="71" height="71" src="img/workflow2.png" alt="">
+                            <p>Discover</p>
+                        </div>
+                    </div>
+                    <div class="col mx-1">
+                        <div class="hand-parent">
+                            <img width="71" height="71" src="img/workflow3.png" alt="">
+                            <p>Design</p>
+                        </div>
+                    </div>
+                    <div class="col mx-1">
+                        <div class="hand-parent">
+                            <img width="71" height="71" src="img/workflow4.png" alt="">
+                            <p>Deploy</p>
+                        </div>
+                    </div>
+                    <div class="col mx-1">
+                        <div class="hand-parent">
+                            <img width="71" height="71" src="img/hand-logo-5.webp" alt="">
+                            <p>Award</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="aboutpara1">We collaborate to grasp the idea and core requirements of our customers to
+                        propose cost-effective and well-timed solutions. We also analyze your business process to find
+                        the brand values that set the direction for the graphic design project.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="content-2">
+                        <h4 class="be-visible">TESTIMONIALS</h4>
+                        <h2>Ring Us To Boost <br> Your Brand Awareness</h2>
+                        <p>We are in love to boost your brand’s success with our successful effort of digital marketing
+                            services. We provide complete organic exposure and satisfied successful elements
+                            efficiently.</p>
+                    </div>
+                    <h1 class="Testimonials">Testimonials</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-info">
+                        <h2>Best Decision Ever</h2>
+                        <p>I was baffled as my online sales were low, and I couldn’t do much about that. I opted for a
+                            friend’s recommendation of hiring Logo Design Valley for branding and web design, which
+                            changed everything. I am thankful that my online store is now growing.</p>
+                        <h4>David Johnson</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img id="testimo-img" src="img/testimo.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- About sect 3 Close -!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-> -->
+
+
+    <!-- <!-++++++++++++++++++++++++++++++++++- Footer Code Open -+++++++++++++++++++++++++++++-> -->
+
+  <section class="foot">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="index.html"><img src="img/logo.png" alt=""></a>
+          <p class="para2">We offer to our clients. From full stack development to just consultancy- you demand, we deliver. From full-stack development to just consultancy-you demand, we deliver. consultancy-you demand, we deliver.</p>
+        </div>
+        <div class="col-md-3">
+          <div class="foot-content">
+            <h3>Logo Design Valley</h3>
+            <ul class="foot-ulli">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About Us</a></li>
+              <li><a href="Contact-Us.html">Contact</a></li>
+              <li><a href="tel:+1-844-288-3220">+1-844-288-3220</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="foot-content">
+            <h3>Services</h3>
+            <ul class="foot-ulli">
+              <li><a href="Logo-Design.html">Logo Design</a></li>
+              <li><a href="Website-Design.html">Website Design</a></li>
+              <li><a href="Branding.html">Branding</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="foot-content">
+            <h3>Quick Links</h3>
+            <ul class="foot-ulli">
+              <li><a href="Packages.html">Packages</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="foot-img">
+          <img src="img/foot1.png" alt="">
+          <img src="img/foot2.png" alt="">
+          <img src="img/foot3.png" alt="">
+          <img src="img/foot4.png" alt="">
+          <img src="img/foot5.png" alt="">
+          <img src="img/foot6.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <!-++++++++++++++++++++++++++++++++++- Footer Code Close -++++++++++++++++++++++++++++-> -->
+
+
+
+
+</body>
+<script type="text/javascript" src="jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</html>
